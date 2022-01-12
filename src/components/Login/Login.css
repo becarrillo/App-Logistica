@@ -1,0 +1,315 @@
+#userName {
+    width: 27vw;
+}
+
+form #submitInput {
+    margin-left: 7.5vw;
+}
+
+#formCheck {
+    margin-left: 30.36vw;
+}
+
+@media screen and (max-width: 575px) {
+    form {
+        margin: 9px 2.4vw 18px -31.75px;
+        display: grid;
+        grid-template-rows: 24% 39% 10%;
+        height: 54vh;
+        padding: 1.5vh 12px;
+    }
+
+    form > #inputGroup1 > input {
+        width: 45vw;
+        margin-left: 0;
+        margin-right: -33px;
+    }
+
+    form > #inputGroup1 > label {
+        margin-left: -4.5px;
+        margin-right: -15.36vw;
+        width: 10.25em;
+    }
+
+    form > #inputGroup2 {
+        margin-top: 1.5vh;
+    }
+
+    form > #inputGroup2 > label {
+        margin-left: -7.525px;
+        margin-right: -1.8em;
+        width: 8.3em;
+    }
+
+    form > #inputGroup2 > input {
+        width: 36vw;
+        margin-right: -36px;
+    }
+
+    form #submitContainer > input {
+        margin-right: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    form {
+        display: grid;
+        grid-template-rows: 42.33% 30.33% 18.33%;
+    }
+
+    form #passwordInput {
+        padding: 1.5vh 9px;
+        margin-right: 0;
+    }
+
+    form  > #inputGroup2 > label {
+        padding-right: 0;
+    }
+
+    form #submitContainer {
+        padding-left: 9px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    form {
+        display: grid;
+        grid-template-rows: 15% 27% 6%;
+    }
+
+    #formCheck > #flexCheckDefault {
+        margin-left: -30px;
+        
+    }
+
+}
+
+@media screen and (max-width: 941px) {
+
+    form .main-login-label {
+        width: 21vw;
+    }
+
+    form > #inputGroup1 > input , #inputGroup2 > input {
+        width: 7.5vw;
+        margin-left: 0.9vw;
+    }
+
+    form > #inputGroup2 > input {
+        width: 5.4vw;
+    }
+}
+
+@media screen and (min-width: 942px) {
+    form {
+        display: grid;
+        grid-template-rows: 18% 48% 10%;
+    }
+
+    form #inputGroup1 > label, #inputGroup2 > label {
+        width: 10.9vw;
+    }
+
+    form #inputGroup1 > input, #inputGroup2 > input {
+        width: 12.396vw;
+        margin-left: 0.36vw;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    form {
+        display: grid;
+        grid-template-rows: 24% 21% 18%;
+    }
+
+    form #inputGroup2 > label {
+        margin-right: 8px;
+    }
+
+    form #formCheck {
+        margin-left: 0.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    form {
+        padding: 0.9em 3vw;
+    }
+
+    form > span {
+        padding-top: 21px;
+    }
+
+    form #inputGroup2 > #passwordInput {
+        margin-left: 1.5vw;
+    }
+
+    #formCheck {
+        padding: 0.6vh 3.3vw;
+    }
+
+
+    #submitContainer > input {
+        margin-left: 2.986vw;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    form {
+        padding: 4.5vh 0.3vw;
+    }
+
+    form #inputGroup1 > input {
+        margin-right: 0.21vw;
+        width: 18.125vw;
+    }
+
+    form #inputGroup1 > label {
+        margin-right: -36px;
+    }
+
+    form #inputGroup2 > label {
+        width: 7.9vw;
+    }
+    
+    form #inputGroup2 > #passwordInput {
+        margin-left: 0.9em;
+        margin-right: -4.8vw;
+    }
+    
+    form #submitContainer {
+        padding-top: 0;
+        margin-bottom: -9vh;
+    }
+
+    form #submitContainer > input {
+        margin-left: 11.69vw;
+        margin-top: 4.25vh;
+        padding: 1.5px 0.5vw;
+        width: 14.792vw;
+    }
+
+    form #formCheck {
+        
+        padding: 0.6vh 3.3vw;
+    
+    }
+
+    form #formCheck > #flexCheckDefault, label {
+        margin-left: 2.998em;
+    }
+
+    #submitContainer {
+        margin-left: 1.986vw;
+        margin-top: 0.74em;
+        width: 38vw;
+    }
+
+}
+
+@media screen and (min-width: 1582px) {
+    form {
+        display: grid;
+        grid-template-rows: 39% 38% 4%;
+        padding: 21px 9.35px;
+    }
+
+    form #inputGroup1 > label {
+        width: 5.1vw;
+        margin-right: -0.712vw;
+        padding-left: 0.6vw;
+    }
+
+    form #inputGroup2 {
+        margin-left: -7.5px;
+    }
+
+    form #inputGroup2 > label {
+        padding-left: 8.1px;
+        margin-left: 9px;
+    }
+
+    form #inputGroup2 > label {
+        margin-right: -1.8vw;
+    }
+}
+
+@media screen and (max-width: 1697px) {
+    form #inputGroup1 {
+        padding: 4.5vh 27px;
+    }
+
+    form #inputGroup2 {
+        padding: 4.5vh 18px;
+    }
+
+    form #submitContainer > input {
+        margin-left: 12.98vw;
+        margin-top: 5.25vh;
+        padding: 2.7px 0.5vw;
+        width: 15.792vw;
+    }
+}
+
+@media screen and (min-width: 1698px) {
+    form {
+        padding: 7.25vh 15px;
+        display: grid;
+        grid-template-rows: 33% 45% 6%;
+    }
+
+    form #inputGroup1 > label {
+        width: 8.1vw;
+        margin-left: 2.1vw;
+    }
+
+    form #inputGroup1 > input {
+        margin-right: 9.9pc;
+    }
+
+    form #inputGroup2 {
+        padding: 1.5vh 27px;
+    }
+
+    form #inputGroup2 > label {
+        width: 5.6vw;
+    }
+
+    form #inputGroup2 > #passwordInput {
+        margin-right: -2.7vw;
+        margin-left: 3.7vw;
+    }
+}
+
+@media screen and (max-height: 915px) {
+    form {
+        height: 42.75vh;
+        display: grid;
+        grid-template-rows: 33% 33% 21%;
+        padding-bottom: 3.9pc;
+    }
+}
+
+
+@media screen and (max-height: 996px) {
+    form #inputGroup1 > #userInput {
+        height: 25.69pt;
+    }
+
+    form #inputGroup2 > #passwordInput {
+        width: 12vw;
+        height: 27pt;
+    }
+}
+
+@media screen and (min-height: 997px) {
+    form {
+        height: 27vh;
+    }
+
+    form #inputGroup2 > #passwordInput {
+        height: 3.3vh;
+    }
+}

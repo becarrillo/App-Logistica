@@ -1,0 +1,532 @@
+.menu-tittle {
+    font-family: 'Kotta One', serif;
+}
+
+.loginbtn {
+    font-family: 'Lato', sans-serif;
+};
+
+.small {
+    font-size: 9mm;
+}
+
+.custom-letter {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+#home {
+    height: 100vh;
+    background-color: #0b3370;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%239ca5b1' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+#home main {
+    padding: 15vh 0.6pt;
+}
+
+#card {
+    width: 42em;
+    height: 30vh;
+    margin-left: 15vw;
+    margin-top: 9vh;
+    background-color: rgb(252, 238, 225);
+    color: black;
+}
+
+@media screen and (max-width: 575px) {
+
+    .App-logo {
+        margin-top: 27px;
+        margin-bottom: 6vh;
+    }
+
+    .App-logo > #logo {
+        padding: 9px 6px;
+        width: 72px;
+    }
+
+
+    #logup-signin .entrance-btns {
+        padding: 4.5pt;
+        margin: 4.5vh 27vw 2pc 27vw;
+    }
+
+    #card {
+        margin-top: 9px;
+        margin-left: 9px;
+        width: 125pt;
+        height: 63vh;
+    }
+
+    #card div {
+        margin-left: 0;
+        margin-right: 4vw;
+        padding: 9px 21px;
+    }
+
+    @media screen and (max-height: 737px) {
+        #card {
+            height: 63vh;
+        }
+    }
+        
+    @media screen and (max-height: 701px) {
+        #card {
+            height: 65vh;
+        }
+    }
+}    
+
+@media screen and (min-width: 1201px) {
+    #home {
+        height: 100%;
+    }
+
+    #logup-signin {
+        padding-left: 3vw;
+    }
+
+    #card {
+        height: 27vh;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+
+    #home {
+        height: 100%;
+    }
+
+    .spacing {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spacing #main-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logo {
+        width: 60px;
+        height: 69px;
+        margin-bottom: 0;
+    }
+
+    .entrance-btns {
+        align-content: center;
+    }
+
+    #card {
+        width: 45vw;
+        margin-left: 21vw;
+    }
+
+    @media screen and (max-width: 469px) {
+        .spacing {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .spacing .entrance-btns {
+            padding: 18px 99pt;
+            margin-top: 9vh;
+
+        }
+
+        #logup-signin {
+            margin-left: 32vw;
+        }
+    }
+
+    @media screen and (max-width: 391px) {
+        #card {
+            width: 14vw;
+        }
+
+    
+    }
+
+    
+}
+
+@media screen and (max-height: 879px) {
+    #card {
+        height: 54vh;
+    }
+}
+
+@media screen and (max-height: 801px) {
+    #card {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 737px) {
+    #card {
+        height: 63vh;
+    }
+}
+
+@media screen and (max-height: 701px) {
+    #card {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-height: 684px) {
+    #card {
+        height: 69vh;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    #card {
+        height: 71.63vh;
+    }
+}
+
+@media screen and (max-height: 618px) {
+    #card {
+        height: 73.45vh;
+    }
+}
+
+@media screen and (max-height: 604px) {
+    #card {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-height: 569px) {
+    #card {
+        height: 76.6vh;
+    }
+}
+
+@media screen and (max-height: 549px) {
+    #card {
+        height: 77vh;
+    }
+}
+
+@media screen and (max-height: 540px) {
+    #home > main {
+        height: 116.25vh;
+    }
+}
+
+@media screen and (max-height: 532px) {
+    #card {
+        height: 79vh;
+    }
+}
+
+@media screen and (max-height: 520px) {
+    #card {
+        height: 81vh;
+    }
+}
+
+@media screen and (max-height: 510px) {
+    #home > main {
+        height: 120.27vh;
+    }
+}
+
+@media screen and (max-height: 507px) {
+    #home > main {
+        height: 120.6vh;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #card {
+        height: 82.52vh;
+    }
+}
+
+@media screen and (max-height: 485px) {
+    #card {
+        height: 84vh;
+    }
+}
+
+@media screen and (max-height: 461px) {
+    #card {
+        height: 86vh;
+    }
+}
+
+@media screen and (max-height: 454px) {
+    #card {
+        height: 86.9376vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #home {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    #home main {
+        padding-right: 3vw;
+    }
+
+    #home #card {
+        margin-left: 12vw;
+        padding: 3.3px 9px;
+        width: 63vw;
+        height: 56vh;
+    }
+
+    #card div {
+        margin-left: 4.5px;
+        margin-right: 4px;
+        padding: 9px 15px;
+    }
+    
+    @media screen and (min-width: 576px) {
+        .spacing{
+            display: grid;
+            grid-template-rows: 70% 30%;
+        }
+        
+
+        .App-logo {
+            margin-top: 3vh;
+        }
+
+        .App-logo > #logo {
+            padding-bottom: 0;
+        }
+
+        #logup-signin {
+            margin-top: 9vh;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #logup-signin {
+            padding-left: 15vw;
+        }
+        
+        #logup-signin .entrance-btns {
+            padding: 4.5pt;
+            margin: 4.5vh 27vw 2pc 24vw;
+        }
+
+        #card {
+            width: 96vw;
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+        #card {
+            margin: 0 1.5vw 2vh 5px;
+            padding: 14.5px 0.36vw;
+            height: 45vh;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+
+        .App-logo {
+            margin-top: 18px;
+        }
+
+        .App-logo > #logo {
+            padding-bottom: 0;
+        }
+
+        #logup-signin {
+            display: flex;
+            flex-direction: row;
+            margin-top: 3vh;
+        }
+
+        #logup-signin #loginbtn {
+            margin-left: 4.5vw;
+        }
+
+        #logup-signin .entrance-btns {
+            padding: 10pt 10pt;
+            margin-left: 27px;
+        }
+
+        #card {
+            width: 60vw;
+            height: 36vh;
+        }
+        
+    }
+
+    @media screen and (min-width: 992px) {
+        .spacing {
+            margin-left: 18vw;
+        }
+
+        #card {
+            width: 63vw;
+            height: 39vh;
+        }
+    }
+
+}
+
+@media screen and (max-height: 1287px) {
+
+    #home > main {
+        height: 83.369vh;
+    }
+}
+
+@media screen and (max-height: 1320px) {
+    #home > main {
+        height: 78.569vh;
+    }
+}
+
+@media screen and (max-height: 1327px) {
+    #home > main {
+        height: 76.369vh;
+    }
+}
+
+@media screen and (max-height: 1038px) {
+
+    #card {
+        height: 54vh;
+    }
+
+    @media screen and (max-height: 996px) {
+        #home > main {
+            height: 85.9329vh;
+        }
+
+        #card {
+            height: 48vh;
+        }
+    }
+
+        @media screen and (min-height: 997px) {
+            #home > main {
+                height: 82.8739vh;
+            }
+
+        #card {
+            height: 48vh;
+        }
+    }
+}
+
+@media screen and (max-height: 918px) {
+    #card {
+        height: 45vh;
+    } 
+}
+
+@media screen and (max-height: 879px) {
+    #card {
+        height: 54vh;
+    }
+}
+
+@media screen and (max-height: 801px) {
+    #card {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 737px) {
+    #card {
+        height: 63vh;
+    }
+}
+
+@media screen and (max-height: 701px) {
+    #card {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-height: 684px) {
+    #card {
+        height: 69vh;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    #card {
+        height: 71.63vh;
+    }
+}
+
+@media screen and (max-height: 618px) {
+    #card {
+        height: 73.45vh;
+    }
+}
+
+@media screen and (max-height: 604px) {
+    #card {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-height: 569px) {
+    #card {
+        height: 76.6vh;
+    }
+}
+
+@media screen and (max-height: 549px) {
+    #card {
+        height: 77vh;
+    }
+}
+
+@media screen and (max-height: 532px) {
+    #card {
+        height: 79vh;
+    }
+}
+
+@media screen and (max-height: 520px) {
+    #card {
+        height: 81vh;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #card {
+        height: 82.52vh;
+    }
+}
+
+@media screen and (max-height: 485px) {
+    #card {
+        height: 84vh;
+    }
+}
+
+@media screen and (max-height: 461px) {
+    #card {
+        height: 86vh;
+    }
+}
+
+@media screen and (max-height: 454px) {
+    #card {
+        height: 86.9376vh;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    #card {
+        height: 88vh;
+    }
+}
