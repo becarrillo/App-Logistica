@@ -217,9 +217,7 @@
 }
 
 @media screen and (max-height: 532px) {
-    #home {
-        height: 100%;
-    }
+
     #card {
         height: 37vh;
     }
