@@ -26,7 +26,7 @@ class Login extends React.Component {
                     </div>
                 </div>
 
-                <span className="ms-2 mt-2"><a href="/#">¿Olvidaste tu contraseña?</a></span>
+                <span className="ms-2 mt-3"><a href="/#">¿Olvidaste tu contraseña?</a></span>
 
                 <div className="container-fluid ms-1 row-fluid" id="submitContainer">
                     <input type="submit" className="btn btn-success btn-sm col-sm-12 ps-3 pe-5 me-2" value="Acceder" id="submitInput" />

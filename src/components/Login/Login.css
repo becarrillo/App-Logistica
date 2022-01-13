@@ -121,7 +121,7 @@ form #submitInput {
 @media screen and (min-width: 768px) {
     form {
         display: grid;
-        grid-template-rows: 24% 21% 18%;
+        grid-template-rows: 36% 38% 18%;
     }
 
     form #inputGroup2 > label {
@@ -216,9 +216,13 @@ form #submitInput {
         padding: 21px 9.35px;
     }
 
+    form #inputGroup1 {
+        margin-left: -2.7vw;
+    }
+
     form #inputGroup1 > label {
         width: 5.1vw;
-        margin-right: -0.712vw;
+        margin-right: 0.6vw;
         padding-left: 0.6vw;
     }
 
@@ -262,11 +266,7 @@ form #submitInput {
 
     form #inputGroup1 > label {
         width: 8.1vw;
-        margin-left: 2.1vw;
-    }
-
-    form #inputGroup1 > input {
-        margin-right: 9.9pc;
+        margin-left: 3.6vw;
     }
 
     form #inputGroup2 {
@@ -283,17 +283,27 @@ form #submitInput {
     }
 }
 
+@media screen and (max-height: 820px) {
+    form > span {
+        margin-top: 3vh;
+    }
+}
+
 @media screen and (max-height: 915px) {
     form {
         height: 42.75vh;
         display: grid;
-        grid-template-rows: 33% 33% 21%;
-        padding-bottom: 3.9pc;
+        grid-template-rows: 33% 44% 27%;
     }
 }
 
 
 @media screen and (max-height: 996px) {
+    form {
+        height: 27vh;
+        display: grid;
+        grid-template-rows: 27% 45% 32%;
+    }
     form #inputGroup1 > #userInput {
         height: 25.69pt;
     }
@@ -307,6 +317,8 @@ form #submitInput {
 @media screen and (min-height: 997px) {
     form {
         height: 27vh;
+        display: grid;
+        grid-template-rows: 26% 45% 12%;
     }
 
     form #inputGroup2 > #passwordInput {
