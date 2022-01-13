@@ -86,9 +86,9 @@ form #submitInput {
 }
 
 @media screen and (max-width: 941px) {
-
     form .main-login-label {
         width: 21vw;
+        margin-top: 0.0357vh;
     }
 
     form > #inputGroup1 > input , #inputGroup2 > input {
@@ -135,7 +135,7 @@ form #submitInput {
 
 @media screen and (max-width: 1200px) {
     form {
-        padding: 0.9em 3vw;
+        padding: 0.1em 3vw;
     }
 
     form > span {
@@ -285,15 +285,15 @@ form #submitInput {
 
 @media screen and (max-height: 820px) {
     form > span {
-        margin-top: 3vh;
+        margin-top: 2.4vh;
     }
 }
 
 @media screen and (max-height: 915px) {
     form {
-        height: 42.75vh;
+        height: 48.75vh;
         display: grid;
-        grid-template-rows: 33% 44% 27%;
+        grid-template-rows: 33% 45% 27%;
     }
 }
 
