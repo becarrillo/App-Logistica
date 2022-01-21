@@ -7,6 +7,15 @@ class Login extends React.Component {
         super(props);
     };
 
+    checkHandler = () => {
+        const checkInput = document.getElementById('passwordInput');
+        if (checkInput.getAttribute('type') === 'password') {
+            checkInput.setAttribute('type', 'text');
+        } else {
+            checkInput.setAttribute('type', 'password');
+        };
+    };
+
     render() {
         return (
             <form className="mt-3">
@@ -19,7 +28,7 @@ class Login extends React.Component {
                     <label className="form-label main-login-label col-sm-3" htmlFor="passwordInput">Contraseña</label>
                     <input type="password" className="form-control col-sm-5 mb-2" id="passwordInput" placeholder="*****************" />
                     <div class="form-check col-sm-4 ms-2 mb-3" id="formCheck">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onMouseDown={this.checkHandler} />
                         <label class="form-check-label" for="flexCheckDefault">
                             Mostrar contraseña
                         </label>
